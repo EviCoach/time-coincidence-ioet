@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./dist/main.js",
     "test": "vitest --run --reporter verbose",
+    "coverage": "vitest run --coverage",
     "test:watch": "vitest"
   },
   "repository": {
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/EviCoach/time-coincidence-ioet#readme",
   "devDependencies": {
     "@types/node": "^17.0.35",
+    "c8": "^7.11.3",
     "vitest": "^0.12.9"
   }
 }
