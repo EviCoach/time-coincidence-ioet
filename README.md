@@ -47,7 +47,7 @@ Each day's duration for an employee is also parsed into an object with following
 ```
 All durations are effectively compared to find time coincidences.
 
-
+The project uses clean architecture and structured in such a way that it can be easily tested.
 
 # How to Setup the Project
 
