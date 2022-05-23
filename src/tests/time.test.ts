@@ -1,5 +1,6 @@
 import { expect, it } from "vitest";
-import TimeUtil, { Duration } from "../src/time/time_util";
+import TimeUtil from "../time/time_util";
+import { Duration } from "../util/types";
 
 it("should check two given times for coincidence", () => {
   const duration1: Duration = {
