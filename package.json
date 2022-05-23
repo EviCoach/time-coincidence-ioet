@@ -2,8 +2,9 @@
   "name": "time-coincidence-ioet",
   "version": "1.0.0",
   "description": "Time coincidence algorithm",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
+    "start": "node ./dist/main.js",
     "test": "vitest --run --reporter verbose",
     "test:watch": "vitest"
   },
