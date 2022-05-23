@@ -55,8 +55,8 @@ All durations are effectively compared to find time coincidences.
 - Run ```npm install``` to install dependencies
 - Install ```Typescript``` globally with this command ```npm install -g typescript```
 - Install vitest for tests, ```npm install --save-dev vitest```
-- Run ```npm test``` to run all tests
 - Run ```tsc``` to compile the project and produce Javascript files
+- Run ```npm test``` to run all tests
 - Finally run ```npm  start``` to run the project.
 
 ##  Changing Example Files
