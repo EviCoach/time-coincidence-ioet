@@ -1,0 +1,30 @@
+{
+  "name": "time-coincidence-ioet",
+  "version": "1.0.0",
+  "description": "Time coincidence algorithm",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EviCoach/time-coincidence-ioet.git"
+  },
+  "keywords": [
+    "time",
+    "coincidence",
+    "algorithm"
+  ],
+  "author": "Evi Owhotemu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EviCoach/time-coincidence-ioet/issues"
+  },
+  "homepage": "https://github.com/EviCoach/time-coincidence-ioet#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "vitest": "^0.12.9"
+  }
+}
